@@ -1,0 +1,35 @@
+/* Citibanamex Fonts */
+@font-face {
+    font-family: CitibanamexRegular;
+    src: url("../fonts/interstate/InterstateRegular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: CitibanamexBold;
+    src: url("../fonts/interstate/InterstateBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: CitibanamexLight;
+    src: url("../fonts/interstate/InterstateLight.otf") format("opentype");
+}
+
+
+/* Citibanamex Fonts Class */
+.font-regular {
+    font-family: CitibanamexRegular, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.font-bold {
+    font-family: CitibanamexBold, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.font-light {
+    font-family: CitibanamexLight, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}

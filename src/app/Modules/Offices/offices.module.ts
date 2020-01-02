@@ -2,13 +2,19 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { OfficesRoutingModule } from './offices-routing.module';
+import { OfficesComponent } from './offices.component';
 
 
 @NgModule({
-  declarations: [],
-  imports: [
-    CommonModule,
-    OfficesRoutingModule
-  ]
+    declarations: [
+        OfficesComponent
+    ],
+    imports: [
+        CommonModule,
+        OfficesRoutingModule
+    ],
+    bootstrap: [
+        OfficesComponent
+    ]
 })
 export class OfficesModule { }
