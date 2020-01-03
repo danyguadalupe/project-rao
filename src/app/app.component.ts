@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
     title = 'rao-project';
+    public statusLoader: boolean = true;
+    constructor() {
+        setTimeout(() => {
+            this.statusLoader = false;
+            console.log('desactivando loader')
+        }, 2000);
+    }
 }
